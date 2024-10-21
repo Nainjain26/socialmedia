@@ -1,10 +1,10 @@
 import React from 'react'
-import { GiArabicDoor } from 'react-icons/gi'
-import Gallery from './Gallery'
-import img1 from "./image/office-8828993_1280.jpg"
-import img2 from "./image/telework-6795505_640.jpg"
-import img3 from "./image/women-8080878_640.png"
-import img4 from "./image/telework-6795505_640.jpg"
+// import { GiArabicDoor } from 'react-icons/gi'
+// import Gallery from './Gallery'
+// import imagedata1 from "./image/office-8828993_1280.jpg"
+// import imagedata2 from "./image/telework-6795505_640.jpg"
+// import imagedata3 from "./image/women-8080878_640.png"
+// import imagedata4 from "./image/telework-6795505_640.jpg"
 
 
 
@@ -37,13 +37,13 @@ const Project = () => {
       </div>
     </div>
   
-    {/* Project Gallery */}
+    {/* Project Gallery
     <div className='max-w-[1240px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4 '>
-      <div><Gallery img={img1} /></div>
-      <div><Gallery img={img2} /></div>
-      <div><Gallery img={img3} /></div>
-      <div><Gallery img={img4} /></div>
-    </div>
+      <div><Gallery imgdata={imagedata1} /></div>
+      <div><Gallery imgdata={imagedata2} /></div>
+      <div><Gallery imgdata={imagedata3} /></div>
+      <div><Gallery imgdata={imagedata4} /></div>
+    </div> */}
   </div>
   
   )

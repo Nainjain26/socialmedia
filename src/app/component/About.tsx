@@ -1,6 +1,6 @@
 import React from 'react'
-import Gallery from './Gallery'
-import img from "./image/office-8828993_1280.jpg"
+// import Gallery from './Gallery'
+// import imgdata from "./image/office-8828993_1280.jpg"
 import { LuQuote } from "react-icons/lu";
 
 const About = () => {
@@ -27,7 +27,7 @@ const About = () => {
         <p className='text-gray-400 '><span className='text-orange-600 text-xl md:text-2xl'>75%</span>-Income growth</p>
        </div>
        <div>
-        <Gallery img={img}/>
+        {/* <Gallery imgdata={imgda}/> */}
        </div>
        <div className=' pl-2 md:pl-10'>
           <p className='text-orange-600 font-semibold text-xl'>Fantastic job done by sociaizy</p>

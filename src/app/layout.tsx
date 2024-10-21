@@ -7,7 +7,7 @@ import Card from "./component/Card";
 import Experience from "./component/Experience";
 import Tamplate from "./component/Tamplate";
 import Price from "./component/Price";
-import { MdLockPerson } from "react-icons/md";
+
 import Project from "./component/Project";
 import Achievement from "./component/Achievement";
 import Logo from "./component/Logo";

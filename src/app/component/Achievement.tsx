@@ -5,7 +5,7 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { MdOutlineGppGood } from "react-icons/md";
 import { FaHandsHelping } from "react-icons/fa";
 import { FaPeopleRoof } from "react-icons/fa6";
-import { Span } from 'next/dist/trace';
+
 
 
 
@@ -41,7 +41,7 @@ const Achievement = () => {
     </div>
   </div>
 
-  <div className='hidden md:block h-[250px] w-[250px] lg:h-[300px] lg:w-[300px] rounded-full border border-black md:absolute right-16 lg:right-56 top-24'></div>
+  <div className='hidden md:block h-[250px] w-[250px] lg:h-[300px] lg:w-[300px] rounded-full border border-black md:absolute right-16 lg:right-56 md:top-24'></div>
 </div>
 
   )

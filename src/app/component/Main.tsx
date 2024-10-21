@@ -4,7 +4,7 @@ import Image from "next/image";
 import img from "./image/image-from-rawpixel-id-15237963-png.png"
 import { ImPlay3 } from "react-icons/im";
 import { CgProfile } from 'react-icons/cg'
-import image from "../assest/image/image-from-rawpixel-id-15237963-png.png";
+
 
 const Main = () => {
   return (

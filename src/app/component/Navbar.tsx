@@ -12,10 +12,12 @@ const Navbar = () => {
       <div className="max-w-[1240px] py-[12px] flex justify-between text-center text-black mx-auto">
         <div className="font-semibold text-2xl ">Media<span className="text-orange-600">P</span>ro</div>
         {toggle ? (
-          <IoClose
-            onClick={() => setToggle(!toggle)}
-            className=" text-2xl md:hidden block"
-          />
+           <div // Add a wrapping div or button to handle onClick and className
+           onClick={() => setToggle(!toggle)}
+           className="text-2xl md:hidden block"
+         >
+           <IoClose />
+         </div>
         ) : (
          
           <div  onClick={() => setToggle(!toggle)}

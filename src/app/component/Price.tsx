@@ -2,7 +2,7 @@ import React from 'react'
 import { MdLockPerson } from "react-icons/md";
 import { FaBuildingColumns } from "react-icons/fa6";
 import { MdFindInPage } from "react-icons/md";
-import { FiArrowRightCircle } from "react-icons/fi";
+
 import Box from './Box';
 
 
